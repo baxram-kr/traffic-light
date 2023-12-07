@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(45, 43, 43);
+}
+
+#content{
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    height: 520px;
+    margin-top: 30px;
+    background-color: rgb(16, 14, 14);
+    border-radius: 30px;
+    box-shadow: 0 0 25px black;
+
+    #redl{
+        width: 150px;
+        height: 150px;
+        border-radius: 80px;
+        margin: 0 auto;
+        background-color: gray; 
+    }
+    #yellowl{
+        width: 150px;
+        height: 150px;
+        border-radius: 80px;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: gray;  
+    }
+    #greenl{
+        width: 150px;
+        height: 150px;
+        border-radius: 80px;
+        margin: 0 auto;
+        background-color: gray;
+    }
+
+
+
+
+
+    .yellow{
+        animation-name: myyellow;
+        animation-duration: 5s;
+        box-shadow: 0 0 25px yellow;
+        @keyframes myyellow {
+            0% {background-color: yellow;}
+            59%{background-color: yellow;}
+            60%{background-color: gray;}
+            69%{background-color: gray;}
+            70%{background-color: yellow;}
+            79%{background-color: yellow;}
+            80%{background-color: gray;}
+            89%{background-color: gray;}
+            90%{background-color: yellow;}
+            100%{background-color: yellow}
+        }
+    }
+    .red{  
+        animation-name: myred;
+        animation-duration: 5s;
+        box-shadow: 0 0 25px red;
+
+        @keyframes myred {
+            0% {background-color: red;}
+            59%{background-color: red;}
+            60%{background-color: gray;}
+            69%{background-color: gray;}
+            70%{background-color: red;}
+            79%{background-color: red;}
+            80%{background-color: gray;}
+            89%{background-color: gray;}
+            90%{background-color: red;}
+            100%{background-color: red}
+        }
+    }
+    .green{
+        animation-name: mygreen;
+        animation-duration: 5s;
+        box-shadow: 0 0 25px green;
+        @keyframes mygreen {
+            0% {background-color: green;}
+            59%{background-color: green;}
+            65%{background-color: gray;}
+            69%{background-color: gray;}
+            70%{background-color: green;}
+            79%{background-color: green;}
+            80%{background-color: gray;}
+            89%{background-color: gray;}
+            90%{background-color: green;}
+            100%{background-color: green}
+        }
+    }
+    
+}
